@@ -11,6 +11,7 @@ using namespace std;
 #define inf 1e18
 vl sums(N);
 
+//sum of (r-1 to l)
 void build(vl &a, ll x, ll lx, ll rx)
 {
     if(rx-lx == 1)
